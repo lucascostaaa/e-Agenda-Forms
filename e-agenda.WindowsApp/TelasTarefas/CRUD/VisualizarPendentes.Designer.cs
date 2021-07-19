@@ -69,6 +69,7 @@ namespace e_agenda.WindowsApp.TelasTarefas.CRUD
             // 
             // dataGridPendentes
             // 
+            this.dataGridPendentes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,7 +109,7 @@ namespace e_agenda.WindowsApp.TelasTarefas.CRUD
             this.MaximizeBox = false;
             this.Name = "VisualizarPendentes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Pendentes";
             this.Load += new System.EventHandler(this.VisualizarPendentes_Load);
             this.gpEagenda.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPendentes)).EndInit();

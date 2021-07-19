@@ -141,11 +141,11 @@ namespace e_agenda.WindowsApp.TelasContato.CRUD
             // 
             // textBoxCargo
             // 
-            this.textBoxCargo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCargo.Location = new System.Drawing.Point(316, 269);
+            this.textBoxCargo.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCargo.Location = new System.Drawing.Point(326, 269);
             this.textBoxCargo.Multiline = true;
             this.textBoxCargo.Name = "textBoxCargo";
-            this.textBoxCargo.Size = new System.Drawing.Size(305, 35);
+            this.textBoxCargo.Size = new System.Drawing.Size(295, 35);
             this.textBoxCargo.TabIndex = 19;
             // 
             // label5
@@ -154,7 +154,7 @@ namespace e_agenda.WindowsApp.TelasContato.CRUD
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft JhengHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label5.Location = new System.Drawing.Point(198, 269);
+            this.label5.Location = new System.Drawing.Point(194, 269);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 35);
             this.label5.TabIndex = 18;
@@ -193,10 +193,10 @@ namespace e_agenda.WindowsApp.TelasContato.CRUD
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(316, 130);
+            this.textBoxEmail.Location = new System.Drawing.Point(326, 130);
             this.textBoxEmail.Multiline = true;
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(305, 35);
+            this.textBoxEmail.Size = new System.Drawing.Size(295, 35);
             this.textBoxEmail.TabIndex = 14;
             // 
             // label3
@@ -248,10 +248,10 @@ namespace e_agenda.WindowsApp.TelasContato.CRUD
             // textBoxNome
             // 
             this.textBoxNome.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNome.Location = new System.Drawing.Point(316, 82);
+            this.textBoxNome.Location = new System.Drawing.Point(326, 82);
             this.textBoxNome.Multiline = true;
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(305, 35);
+            this.textBoxNome.Size = new System.Drawing.Size(295, 35);
             this.textBoxNome.TabIndex = 1;
             // 
             // labelNome
